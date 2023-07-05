@@ -1,0 +1,42 @@
+[
+  {
+    "image": "assets/projects-img/delice-des-sens.png",
+    "link": "https://le-delice-ses-sens.netlify.app/",
+    "description": "Site vitrine de restaurant."
+   },
+   {
+    "image": "assets/projects-img/lp-studio.png",
+    "link": "https://lp-studio.netlify.app/",
+    "description": "Portfolio de photographe."
+   },
+   {
+    "image": "assets/projects-img/kasa.png",
+    "link": "https://maerac.github.io/KASAA/",
+    "description": "Plateforme de location d’appartements entre particuliers."
+   }, 
+   {
+    "image": "assets/projects-img/omfood.png",
+    "link": "https://maerac.github.io/Ohmyfood/",
+    "description": "Site de réservation de restaurant avec composition de son menu en ligne."   
+    },
+   {
+    "image": "assets/projects-img/learn.png",
+    "link": "https://www.figma.com/file/pF3OuMLeYEl6elstEBFeJj/Learn%40Home?node-id=0%3A1&t=phc3YUqKSTrDEGHR-1",
+    "description": "Site associatif de soutien scolaire en ligne avec espace élève et espace bénévole."
+   },
+    {
+     "image": "assets/projects-img/fisheye.png",
+     "link": "https://maerac.github.io/Fisheye/",
+     "description": "Plateforme d'exposition pour photographes freelance avec galerie dédiée."
+    },
+    {
+     "image": "assets/projects-img/lpp.png",
+     "link": "https://maerac.github.io/LesPetitsPlats/",
+     "description": "Site de recettes de cuisine doté de plusieurs moteurs de recherche."
+    },
+    {
+     "image": "assets/projects-img/sportsee.png",
+     "link": "https://github.com/MaeraC/SportSee",
+     "description": "Création d'un tableau de bord analytique de performances sportives et indicateurs physiologiques."
+    }
+]
