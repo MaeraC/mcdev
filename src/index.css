@@ -115,7 +115,7 @@ ul {
   color: white;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 10px 20px;
   z-index: 99;
 }
 .nav ul {
@@ -161,20 +161,22 @@ ul {
   font-family: 'Raleway', sans-serif;
   -webkit-text-stroke: 1px white;
   color: transparent;
-  font-size: 30px;
+  font-size: 25px;
 }
 .logo .span3 {
   -webkit-text-stroke: 1px #FB542C;
   color: transparent;
+  text-transform: lowercase;
+  font-size: 33px;
 }
 .logo .span2 {
   display: inline-block;
-  width: 6px;
-  height: 6px;
+  width: 5px;
+  height: 5px;
   position: absolute;
   border: 1px solid white;
-  top: 25px;
-  left: 185.5px;
+  top: 15.5px;
+  left: 136.5px;
 }
 /* MES SERVICES  ************************************************************************
 ********************************************************************************/
@@ -206,11 +208,12 @@ ul {
 }
 .services .card .face-text {
   padding: 40px;
+  padding-top: 20px;
   padding-bottom: 100px;
   color: black;
   border: #FB542C solid 2px;
   line-height: 25px;
-  font-size: 15px;
+  font-size: 14px;
   display: flex;
   flex-direction: column;
   justify-content: initial;
@@ -225,7 +228,7 @@ ul {
   z-index: 10;
 }
 .services i {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   border: #FB542C solid 2px;
   padding: 12px;
   font-size: 20px;
