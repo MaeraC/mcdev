@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
-
+// eslint-disable-next-line
 function DevisForm() {
     const [email, setEmail] = useState('')
     const [name, setName] = useState('')
