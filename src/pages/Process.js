@@ -13,6 +13,7 @@ function isItemInView(item) {
 
 function Process() {
   const itemsRef = useRef(null)
+  // eslint-disable-next-line
   const [timelineProgress, setTimelineProgress] = useState(0)
 
   useEffect(() => {
