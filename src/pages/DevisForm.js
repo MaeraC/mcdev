@@ -1,13 +1,17 @@
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
-// eslint-disable-next-line
+
 function DevisForm() {
+    // eslint-disable-next-line
     const [email, setEmail] = useState('')
+    // eslint-disable-next-line
     const [name, setName] = useState('')
     const [typeSite, setTypeSite] = useState('')
     const [project, setProject] = useState('')
     const [budget, setBudget] = useState('')
+    // eslint-disable-next-line
     const [details, setDetails] = useState('')
+    // eslint-disable-next-line
     const [politic, setPolitic] = useState('')
     const [step, setStep] = useState(1)
 
