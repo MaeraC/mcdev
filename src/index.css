@@ -13,8 +13,6 @@ img {
 section {
   height: 100vh;
   overflow: hidden;
-  padding: 40px 8%;
-  padding-top: 80px;
 }
 h1 {
   font-size: 30px;
@@ -180,6 +178,10 @@ ul {
 }
 /* MES SERVICES  ************************************************************************
 ********************************************************************************/
+.services {
+  padding: 0 8%;
+  padding-top: 60px;
+}
 .services .types {
   display: flex;
 }
@@ -259,6 +261,7 @@ ul {
   background-size: cover;
   padding: 40px 5%;
   height: 100%;
+  padding-top: 70px;
 }
 .advantages .titles h1 {
   color: white;
@@ -281,7 +284,7 @@ ul {
   color: #FB542C;
 }
 .advantages .types div p {
-  font-size: 13px;
+  font-size: 15px;
   line-height: 22px;
   margin-top: 20px;
 }
@@ -295,6 +298,8 @@ ul {
 ************************************************************************/
 .process {
   height: 100%;
+  padding: 0 8%;
+  padding-top: 60px;
 }
 .process ul li {
   position: relative;
@@ -445,8 +450,7 @@ ul {
 ************************************************************************/
 .portfolio {
   height: 100%;
-  padding: 0;
-  padding-top: 80px;
+  padding-top: 60px;
   padding-bottom: 30px;
 }
 .gallery {
@@ -455,6 +459,7 @@ ul {
   justify-content: center;
 }
 .gallery figure {
+  position: relative;
   margin: 20px;
   width: 20%;
   height: 250px;
@@ -462,6 +467,40 @@ ul {
   opacity: 0;
   transition: opacity 1s ease;
   border: solid 1px #b9b9b96d;
+}
+.gallery figure::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 93%;
+  padding: 10px;
+  color: white;
+  font-size: 14px;
+  background-color: #0000007a;
+  opacity: 0; /* Ajout de l'opacité pour afficher l'élément */
+  transition: opacity 0.5s ease;
+}
+.gallery figure:hover::after {
+  opacity: 1;
+}
+.gallery figure:nth-child(1):hover::after {
+  content: "Site vitrine de restaurant";
+}
+.gallery figure:nth-child(3):hover::after {
+  content: "Portfolio de photographe";
+}
+.gallery figure:nth-child(4):hover::after {
+  content: "Plateforme de location d'appartements entre particuliers";
+}
+.gallery figure:nth-child(5):hover::after {
+  content: "Plateforme de réservation de restaurants avec composiion de son menu en ligne";
+}
+.gallery figure:nth-child(2):hover::after {
+  content: "Boutique en ligne de vente de plantes d'intérieur";
+}
+.gallery figure:nth-child(6):hover::after {
+  content: "Plateforme d'exposition pour photographes freelance avec galerie dédiée.";
 }
 .figure.visible {
   opacity: 1;
@@ -479,6 +518,7 @@ ul {
   height: 70vh;
   overflow: initial;
   background-color: rgb(25, 25, 25);
+  padding-top: 40px;
 }
 .devis-modal h1 {
   color: white;
@@ -594,12 +634,10 @@ ul {
   font-weight: bold;
   background-color: #FB542C;
 }
-  
-  .devis-modal .next {
+.devis-modal .next {
   margin-top: -75px;
-  }
-  
-  .devis-modal .success {
+}
+.devis-modal .success {
   width: 100%;
   position: absolute;
   display: flex;
@@ -614,20 +652,45 @@ ul {
   transition: all 0.2s ease-in;
   background: limegreen;
   margin-top: -75px;
-  }
-  
-  .devis-modal .success p {
+}
+.devis-modal .success p {
   color: white;
   font-weight: 900;
   letter-spacing: 2px;
   font-size: 18px;
   width: 100%;
   text-align: center;
-  }
-  form input {
-    font-family: 'Raleway', sans-serif;
-  }
-
+}
+form input {
+  font-family: 'Raleway', sans-serif;
+}
+form .error {
+  font-size: 13px;
+  color: red;
+  margin-left: 30px;
+}
+form a {
+  color: #FB542C;
+}
+/* FOOTER **************************************************************
+************************************************************************/
+.mentions , .politique {
+  padding: 60px 20%;
+  line-height: 25px;
+  height: 100%;
+}
+.mentions h1 , .politique h1 {
+  margin: 20px 0;
+  color: #FB542C;
+  font-size: 25px;
+}
+.mentions h2 , .politique h2 {
+  font-size: 18px;
+  margin: 20px 0;
+}
+.mentions p , .politique p , .politique li {
+  font-size: 15px;
+}
 /* FOOTER **************************************************************
 ************************************************************************/
 footer {
@@ -646,3 +709,8 @@ footer i {
 footer p {
   text-align: center;
 }
+footer a:hover {
+  color: #FB542C;
+  transition: 0.3s;
+}
+

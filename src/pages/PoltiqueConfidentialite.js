@@ -1,6 +1,6 @@
 function PolitiqueConfidentialite() {
     return (
-        <section>
+        <section className="politique">
             <h1>Politique de confidentialité</h1>
 
             <p>Cette politique de confidentialité décrit comment nous collectons, utilisons et protégeons les informations personnelles que vous nous fournissez lorsque vous utilisez notre site web.</p>
@@ -11,10 +11,10 @@ function PolitiqueConfidentialite() {
             <h2>2. Utilisation des informations</h2>
             <p>Les informations personnelles que nous collectons peuvent être utilisées pour :</p>
             <ul>
-                <li>Répondre à vos demandes et fournir les services que vous avez demandés</li>
-                <li>Vous envoyer des informations importantes concernant notre entreprise et nos services</li>
-                <li>Améliorer notre site web et nos services</li>
-                <li>Effectuer des analyses et des statistiques pour comprendre et améliorer l'expérience des utilisateurs</li>
+                <li>. Répondre à vos demandes et fournir les services que vous avez demandés</li>
+                <li>. Vous envoyer des informations importantes concernant notre entreprise et nos services</li>
+                <li>. Améliorer notre site web et nos services</li>
+                <li>. Effectuer des analyses et des statistiques pour comprendre et améliorer l'expérience des utilisateurs</li>
             </ul>
 
             <h2>3. Protection des informations</h2>

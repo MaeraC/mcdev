@@ -52,7 +52,7 @@ function Services() {
                         <p>Que vous ayez besoin d'un site vitrine pour présenter vos produits et services, d'un site e-commerce pour vendre en ligne, ou d'une application web personnalisée pour répondre à des besoins spécifiques, je suis là pour vous accompagner à chaque étape du processus en respectant les standards du web. </p>
                     </div>
                     <div className="face face-image creation">
-                        <h3>Création web</h3>
+                        <h3>Développement web</h3>
                     </div>
                 </div>
                 <div className="card appear" data-delai={500} ref={(el) => (elementsRef.current[2] = el)}> 

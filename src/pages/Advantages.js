@@ -45,7 +45,7 @@ function Advantages() {
                     <p>Un  freelance se concentre sur un projet à la fois, ce qui garantit un niveau d'engagement et de dévouement élevé. Il consacre tout son temps et son attention pour obtenir les meilleurs résultats possibles.</p>
                 </div>
                 <div className="appear" data-delai={500} ref={(el) => (elementsRef.current[2] = el)}>
-                    <h3>Coôts réduits</h3>
+                    <h3>Coûts réduits</h3>
                     <p>Collaborer avec un freelance est économiquement avantageux : tarifs compétitifs, frais réduits, pas de coûts liés à la gestion d'une équipe ou à une structure d'agence. Une solution rentable pour vos projets.</p>
                 </div>
                 <div className="appear" data-delai={700} ref={(el) => (elementsRef.current[3] = el)}>

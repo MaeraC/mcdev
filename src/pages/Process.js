@@ -53,7 +53,7 @@ function Process() {
     <section className="process" id="deroulement">
          <div className="titles">
                 <h1>Déroulement du projet</h1>
-                <h2>Votre projet qui se déroule étape par étape</h2>
+                <h2>Un processus étape par étape</h2>
                 <span></span>
             </div>
       <ul ref={itemsRef}>
@@ -66,23 +66,16 @@ function Process() {
         </li>
         <li>
           <div className='box-shadow' >
-            <h3>Planification et conception</h3>
+            <h3>Planification du projet</h3>
             <span></span>
             <p>Sur la base de l'analyse des besoins, je créerai une proposition détaillée qui inclura une planification du projet, des échéances et un aperçu des fonctionnalités. Ensemble, nous validerons cette proposition pour nous assurer que nous sommes alignés sur les objectifs et le calendrier du projet.</p>
           </div>
         </li>
         <li>
           <div className='box-shadow' >
-            <h3>Conception visuelle</h3>
-            <span></span>
-            <p>Je procéderai ensuite à la création d'une maquette visuelle de votre projet, en vous présentant des designs et des prototypes interactifs. Nous pourrons discuter des ajustements et des modifications nécessaires pour nous assurer que le design correspond parfaitement à votre vision.</p>
-          </div>
-        </li>
-        <li>
-          <div className='box-shadow' >
             <h3>Développement</h3>
             <span></span>
-            <p>Une fois que la conception visuelle est validée, je passerai à la phase de développement. Je m'appuierai sur mes compétences techniques et mon expertise pour transformer le design en un site web fonctionnel et réactif, en utilisant les meilleures pratiques de développement.</p>
+            <p>Je passerai ensuite à la phase de développement. Je m'appuierai sur mes compétences techniques et mon expertise pour concevoir le design en un site web fonctionnel et réactif, en utilisant les meilleures pratiques de développement.</p>
           </div>
         </li>
         <li>
@@ -96,7 +89,7 @@ function Process() {
           <div className='box-shadow' >
             <h3>Livraison</h3>
             <span></span>
-            <p>Une fois que le projet est prêt, je vous livrerai les fichiers et les ressources nécessaires pour mettre votre site en ligne. Félicitations ! Vous êtes l'heureux propriétaire de votre site. Ma collaboration ne s'arrête pas à la livraison du projet. Je suis là pour vous offrir un support continu et répondre à vos questions ou demandes d'assistance technique.</p>
+            <p>Une fois que le projet est prêt, je vous livrerai les fichiers et les ressources nécessaires pour mettre votre site en ligne. Félicitations ! Vous êtes l'heureux propriétaire de votre site.</p>
           </div>
         </li>
       </ul>

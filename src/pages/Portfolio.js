@@ -45,7 +45,7 @@ function Portfolio() {
         <section className='portfolio' id="realisations">
             <div className='titles'>
                 <h1>Mes réalisations</h1>
-                <h2>Un apreçu de mes derniers projets</h2>
+                <h2>Un aperçu de mes derniers projets</h2>
                 <span></span>
             </div>
             <div className="gallery">
