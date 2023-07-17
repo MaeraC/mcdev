@@ -95,9 +95,9 @@ ul {
   align-items: center;
 }
 .landing-page .text .title {
-  font-weight: bold;
   font-size: 90px;
   animation: fadeIn 1s ease-in;
+  text-transform: initial;
 }
 .landing-page .text .title2 {
   font-size: 31px;
@@ -105,12 +105,16 @@ ul {
   color: #FB542C;
   animation: fadeIn 1s ease-in;
   animation-delay: 0.2s;
+  text-transform: initial;
+  font-weight: normal;
 }
 .landing-page .text .title3 {
   margin-top: 10px;
   font-size: 22px;
   animation: fadeIn 1s ease-in;
   animation-delay: 0.4s;
+  text-transform: initial;
+  font-weight: normal;
 }
 @media screen and (max-width: 1024px) {
   .landing-page .text .title {

@@ -8,7 +8,7 @@ import DevisForm from './DevisForm'
 
 function Home() {
   return (
-      <div className="scroller" dir="ltr">
+      <>
         <Landingpage />
         <Services />
         <Advantages />
@@ -16,7 +16,7 @@ function Home() {
         <Devis />
         <Portfolio />
         <DevisForm />
-      </div>
+      </>
   )
 }
 
