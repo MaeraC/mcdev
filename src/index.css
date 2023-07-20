@@ -93,6 +93,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 .landing-page .text .title {
   font-size: 90px;
@@ -115,6 +116,10 @@ ul {
   animation-delay: 0.4s;
   text-transform: initial;
   font-weight: normal;
+}
+.landing-page .button {
+  margin-top: 40px;
+  background-color: rgba(0, 0, 0, 0.295);
 }
 @media screen and (max-width: 1024px) {
   .landing-page .text .title {
@@ -739,6 +744,40 @@ ul {
     line-height: 28px;
   }
 }
+/* PRESENTATION **************************************************************
+************************************************************************/
+.presentation {
+  height: 100%;
+  padding: 60px 12%;
+  background-color: #80808018;
+}
+.presentation .img {
+  width: 20%;
+  height: 250px;
+  margin-top: 20px;
+  background: #FB542C;
+  position: relative;
+}
+.presentation img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: -10px;
+  bottom: -10px;
+  border: solid 1px grey;
+}
+.presentation .text {
+  width: 78%;
+}
+.presentation p {
+  font-size: 15px;
+  line-height: 23px;
+  padding: 10px;
+}
+.presentation .text2 {
+  display: flex;
+  justify-content: space-between;
+}
 /* PORTFOLIO **************************************************************
 ************************************************************************/
 .portfolio {
@@ -778,22 +817,22 @@ ul {
   opacity: 1;
 }
 .gallery figure:nth-child(1):hover::after {
-  content: "Site vitrine de restaurant";
-}
-.gallery figure:nth-child(3):hover::after {
-  content: "Portfolio de photographe";
+  content: "Site de gestion et construction immobilière - EN COURS";
 }
 .gallery figure:nth-child(4):hover::after {
-  content: "Plateforme de location d'appartements entre particuliers";
+  content: "Site vitrine d'un studio de photographie";
 }
 .gallery figure:nth-child(5):hover::after {
-  content: "Plateforme de réservation de restaurants avec composiion de son menu en ligne";
-}
-.gallery figure:nth-child(2):hover::after {
-  content: "Boutique en ligne de vente de plantes d'intérieur";
+  content: "Plateforme de location d'appartements entre particuliers";
 }
 .gallery figure:nth-child(6):hover::after {
-  content: "Plateforme d'exposition pour photographes freelance avec galerie dédiée.";
+  content: "Plateforme de réservation de restaurants avec composiion de son menu en ligne";
+}
+.gallery figure:nth-child(3):hover::after {
+  content: "Boutique en ligne de vente de plantes d'intérieur";
+}
+.gallery figure:nth-child(2):hover::after {
+  content: "Site vitrine de restaurant.";
 }
 .figure.visible {
   opacity: 1;

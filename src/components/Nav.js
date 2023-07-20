@@ -35,6 +35,7 @@ function Nav() {
                     <li className="link"><Link to="#services" reloadDocument>Services</Link></li>
                     <li className="link"><Link to="#avantages" reloadDocument>Avantages</Link></li>
                     <li className="link"><Link to="#deroulement" reloadDocument>Déroulement</Link></li>
+                    <li className="link"><Link to="#apropos" reloadDocument>À propos de moi</Link></li>
                     <li className="link"><Link to="#realisations" reloadDocument>Réalisations</Link></li>
                     <li className="link"><Link to="#contact" reloadDocument>Contact</Link></li>
                     </>

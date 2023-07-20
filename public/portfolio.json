@@ -1,5 +1,11 @@
 [
   {
+    "image": "assets/projects-img/ilios.png",
+    "link": "https://iliosgroupe.com/",
+    "description": "Site de gestion et construction immobilière.",
+    "title": "Ilios Groupe"
+   },
+   {
     "image": "assets/projects-img/delice-des-sens.png",
     "link": "https://le-delice-des-sens.netlify.app/",
     "description": "Site vitrine de restaurant.",
@@ -28,11 +34,5 @@
     "link": "https://oohmyfoood.netlify.app/",
     "description": "Site de réservation de restaurant avec composition de son menu en ligne."  ,
     "title": "Ohmyfood" 
-    },
-    {
-     "image": "assets/projects-img/fisheye.png",
-     "link": "https://maerac.github.io/Fisheye/",
-     "description": "Plateforme d'exposition pour photographes freelance avec galerie dédiée.",
-     "title": "Fisheye"
     }
 ]
