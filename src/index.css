@@ -817,7 +817,7 @@ ul {
   opacity: 1;
 }
 .gallery figure:nth-child(1):hover::after {
-  content: "Site de gestion et construction immobilière - EN COURS";
+  content: "Site de gestion et construction immobilière";
 }
 .gallery figure:nth-child(4):hover::after {
   content: "Site vitrine d'un studio de photographie";
