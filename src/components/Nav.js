@@ -41,7 +41,7 @@ function Nav() {
                     <li className="link"><Link to="/a-propos">À propos</Link></li>
                     </>
                 )}
-                <li><Link to="#devis" className="button" reloadDocument>Obtenir un devis</Link></li>
+                <li><Link to="/#devis" className="button" reloadDocument>Obtenir un devis</Link></li>
                 
                 {!showMenu && (
                     <button className='open-burger button' onClick={openMenuBurger}>Menu</button>
