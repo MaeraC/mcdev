@@ -105,7 +105,6 @@ ul {
   margin: 20px 0;
   color: #FB542C;
   animation: fadeIn 1s ease-in;
-  animation-delay: 0.2s;
   text-transform: initial;
   font-weight: normal;
 }
@@ -113,7 +112,6 @@ ul {
   margin-top: 10px;
   font-size: 22px;
   animation: fadeIn 1s ease-in;
-  animation-delay: 0.4s;
   text-transform: initial;
   font-weight: normal;
 }
