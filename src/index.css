@@ -142,10 +142,14 @@ ul {
   .landing-page .text .title2 {
     font-size: 20px;
     text-align: center;
+    margin-bottom: 5px;
   }
   .landing-page .text .title3 {
     font-size: 16px;
     text-align: center;
+  }
+  .landing-page .button {
+    margin-top: 20px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -697,9 +701,9 @@ ul {
     width: 300px;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 400px) {
   .process ul li div {
-    width: 250px;
+    width: 270px;
   }
 }
 /* DEVIS **************************************************************
@@ -749,7 +753,7 @@ ul {
 }
 @media screen and (max-width: 500px) {
   .devis p {
-    width: 80%;
+    width: 100%;
     line-height: 28px;
   }
 }
@@ -1038,7 +1042,7 @@ form a {
     width: 80%;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .devis-modal .input-section ,  .devis-modal .input-section.folded {
     width: 90%;
   }
