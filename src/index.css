@@ -1139,3 +1139,42 @@ footer a:hover {
 }
 
 
+
+
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FB542C;
+}
+.error span {
+  -webkit-text-stroke: 2px white;
+  color: transparent;
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+.error p {
+  font-size: 18px;
+}
+.error a {
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.error a:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 600px) {
+  .error span {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .error span {
+    font-size: 60px;
+  }
+  .error p {
+    font-size: 16px;
+  }
+}
