@@ -134,6 +134,7 @@ ul {
 @media screen and (max-width: 700px) {
   .landing-page {
     height: 50vh;
+    background: url(../public/assets/lp.jpg) no-repeat;
   }
   .landing-page .text .title {
     font-size: 40px;
@@ -528,6 +529,9 @@ ul {
   }
 }
 @media screen and (max-width: 700px) {
+  .advantages {
+    background: url(../public/assets/advantages.jpg) no-repeat;
+  }
   .advantages .types {
     flex-direction: column;
   }
@@ -739,6 +743,7 @@ ul {
 @media screen and (max-width: 850px) {
   .devis {
     font-size: 16px;
+    background: url(../public/assets/advantages.jpg);
   }
 }
 @media screen and (max-width: 700px) {
