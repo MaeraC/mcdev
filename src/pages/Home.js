@@ -5,7 +5,6 @@ import Advantages from "./Advantages"
 import Devis from "./Devis"
 import Process from "./Process"
 import DevisForm from './DevisForm'
-import Presentation from "./Presentation"
 
 function Home() {
   return (
