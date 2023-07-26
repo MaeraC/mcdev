@@ -36,6 +36,8 @@ function Services() {
                 <span></span>
             </div>
 
+            <div className='intro'>MC Studio accompagne les entreprises, les start-up les indépendants dans la création de leur site web. La solution idéale pour faire parler de vous et d'être visible sur le web est d'avoir un site web qui présentera votre activité à votre public cible. C'est pourquoi MC Studio offre son expertise en vous proposant les solutions adaptées à vos besoins.  </div>
+
             <div className="types">
                 <div className="card appear" data-delai={100} ref={(el) => (elementsRef.current[0] = el)}> 
                     <div className="face face-text">

@@ -32,12 +32,13 @@ function Nav() {
             <ul>
                 {showMenu && (
                     <>
-                    <li className="link"><Link to="#services" reloadDocument>Services</Link></li>
-                    <li className="link"><Link to="#avantages" reloadDocument>Avantages</Link></li>
-                    <li className="link"><Link to="#deroulement" reloadDocument>Déroulement</Link></li>
-                    <li className="link"><Link to="#apropos" reloadDocument>À propos de moi</Link></li>
-                    <li className="link"><Link to="#realisations" reloadDocument>Réalisations</Link></li>
-                    <li className="link"><Link to="#contact" reloadDocument>Contact</Link></li>
+                    <li className="link"><Link to="/#services" reloadDocument>Services</Link></li>
+                    <li className="link"><Link to="/#avantages" reloadDocument>Avantages</Link></li>
+                    <li className="link"><Link to="/#deroulement" reloadDocument>Déroulement</Link></li>
+                    <li className="link"><Link to="/#realisations" reloadDocument>Réalisations</Link></li>
+                    <li className="link"><Link to="/a-propos">À propos</Link></li>
+                    
+                    <li className="link"><Link to="/#contact" reloadDocument>Contact</Link></li>
                     </>
                 )}
                 <li><Link to="#devis" className="button" reloadDocument>Obtenir un devis</Link></li>
@@ -48,11 +49,13 @@ function Nav() {
 
                 {showMenuBurger && (
                     <li className="menu2">
-                        <li className="link"><Link to="#services" reloadDocument>Services</Link></li>
-                        <li className="link"><Link to="#avantages" reloadDocument>Avantages</Link></li>
-                        <li className="link"><Link to="#deroulement" reloadDocument>Déroulement</Link></li>
-                        <li className="link"><Link to="#realisations" reloadDocument>Réalisations</Link></li>
-                        <li className="link"><Link to="#contact" reloadDocument>Contact</Link></li>
+                        <li className="link"><Link to="/#services" reloadDocument>Services</Link></li>
+                        <li className="link"><Link to="/#avantages" reloadDocument>Avantages</Link></li>
+                        <li className="link"><Link to="/#deroulement" reloadDocument>Déroulement</Link></li>
+                        <li className="link"><Link to="/#realisations" reloadDocument>Réalisations</Link></li>
+                        <li className="link"><Link to="/a-propos">À propos de moi</Link></li>
+                        
+                        <li className="link"><Link to="/#contact" reloadDocument>Contact</Link></li>
                         <img className="close-menu" onClick={() => setMenuBurger(false)} src={closeBurger} alt="fermer le menu" />
                     </li>
                 )}

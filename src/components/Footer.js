@@ -6,7 +6,7 @@ function Footer() {
           
                 <ul className="contact">
                     <li><Link to="mailto:dev.mc.studio@gmail.com"><i className="fas fa-at"></i>dev.mc.studio@gmail.com</Link></li>
-                    <li><i className="fas fa-phone"></i>07 58 06 63 98</li>
+                    <li><Link to="https://calendly.com/mc-studio-dev/discutons-de-votre-projet-web" target="_blank"><i className="fas fa-phone"></i>Prendre rendez-vous</Link></li>
                     <li><i className="fas fa-home"></i>34000 Montpellier</li>
                 </ul>
 

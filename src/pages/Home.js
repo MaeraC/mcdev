@@ -15,7 +15,6 @@ function Home() {
         <Advantages />
         <Process />
         <Devis />
-        <Presentation />
         <Portfolio />
         <DevisForm />
       </>

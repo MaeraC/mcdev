@@ -8,6 +8,7 @@ import Error from './pages/Error'
 import PolitiqueConfidentialite from './pages/PoltiqueConfidentialite'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
+import Presentation from './pages/Presentation'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
@@ -16,6 +17,7 @@ root.render(
       <Nav />
       <Routes>
         <Route exact path='/' element={<Home />} />
+        <Route path='/a-propos' element={<Presentation />} />
         <Route path='/mentions-legales' element={<MentionsLegales />} />
         <Route path='/politique-de-confidentialite' element={<PolitiqueConfidentialite />} />
         <Route path='*' element={<Error />} />
